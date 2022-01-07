@@ -10,5 +10,6 @@ public class Practice_13 {
 		if(kor>=80) {
 			System.out.println("당신의 국어점수는 B학점입니다.");
 		}
+		System.out.println("학점이 안나왔다면 80점이 안되서입니다.");
 	}
 }
