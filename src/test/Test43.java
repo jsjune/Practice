@@ -9,6 +9,7 @@ public class Test43 {
 		System.out.println("문자열을 입력하십시오.");
 		
 		try {
+			// 버퍼를 경유하여 읽어 들인다. || 표준 입력을 사용하여 문자 스트림을 작성한다.
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			
 			String str = br.readLine();
