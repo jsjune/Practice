@@ -1,4 +1,5 @@
 package test;
+package test;
 
 abstract class Vehicle{ // 추상 클래스
 	protected int speed;
@@ -7,7 +8,7 @@ abstract class Vehicle{ // 추상 클래스
 		speed = s;
 		System.out.println("속도를" + speed + "으로 변경했습니다.");
 	}
-	abstract void show(); // 추상 메소드
+	abstract void show(); // 추상 메소드 show()
 }
 
 class Car extends Vehicle{ // 추상 클래스 확장
@@ -18,7 +19,7 @@ class Car extends Vehicle{ // 추상 클래스 확장
 		num = n; gas = g;
 		System.out.println("차량 번호" + num + ", 연료 양" + gas + "인 자동차가 만들어졌습니다.");
 	}
-	public void show() {
+	public void show() { // show() 메소드의 몸체
 		System.out.println("차량 번호는" + num + "입니다.");
 		System.out.println("연료 양은" + gas + "입니다.");
 		System.out.println("속도는" + speed + "입니다.");
@@ -33,7 +34,7 @@ class Plane extends Vehicle{ // 추상 클래스 확장
 		System.out.println("비행기 번호가" + flight + "인 비행기가 만들어졌습니다.");
 	}
 	
-	public void show() {
+	public void show() { // show() 메소드의 몸체
 		System.out.println("비행기 번호는" + flight + "입니다.");
 		System.out.println("속도는" + speed + "입니다.");
 	}
