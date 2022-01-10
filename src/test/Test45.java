@@ -11,7 +11,7 @@ public class Test45 {
 			BufferedReader br = new BufferedReader(new FileReader("test1.txt"));
 			// 버퍼를 경유하여 읽어들인다.
 			
-			// 1행을 읽어들인다.
+			// 1행씩 읽어들인다.
 			String str1 = br.readLine();
 			String str2 = br.readLine();
 			
