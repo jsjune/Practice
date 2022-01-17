@@ -25,7 +25,7 @@ class Car implements iVehicle, iMaterial{
 		System.out.println("자동차의 재질은 철입니다.");
 	}
 }
-public class Test38 {
+public class Test38_interface {
 	public static void main(String[] args) {
 		Car car1 = new Car(1234, 20.5); 
 		car1.vshow();

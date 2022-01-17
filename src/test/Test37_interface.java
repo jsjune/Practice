@@ -31,7 +31,7 @@ class Plane implements iVehicle{
 	}
 }
 
-public class Test37 {
+public class Test37_interface {
 	public static void main(String[] args) {
 		iVehicle[] ivc = new iVehicle[2]; // 인터페이스 배열 준비
 		
